@@ -3,6 +3,7 @@ package com.example.maparuta;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.location.Geocoder;
 import android.net.Uri;
 import android.os.Bundle;
 
