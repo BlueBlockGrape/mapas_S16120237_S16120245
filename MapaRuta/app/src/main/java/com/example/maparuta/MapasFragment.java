@@ -183,6 +183,7 @@ public class MapasFragment extends Fragment implements OnMapReadyCallback {
             Toast.makeText(getActivity().getApplicationContext(), "Algo pasó", Toast.LENGTH_SHORT).show();
         }
         if (lista.size() > 0) {
+            mMapa.clear();
             Address address = lista.get(0);
             Toast.makeText(getActivity().getApplicationContext(), "Se trazó la ruta", Toast.LENGTH_SHORT).show();
             Log.d("MENSAJES", address.toString());
